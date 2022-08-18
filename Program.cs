@@ -1,10 +1,12 @@
-﻿namespace EmployeeWage
+﻿namespace GenericsMaximumProblem
 {
-    class Program
+    class ProgramUC3
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Welcome to Maximum Problem Using Generics");
+            MaximumStringUC3 max = new MaximumStringUC3();
+            max.GetInput();
+            max.Compare();
         }
     }
 }
